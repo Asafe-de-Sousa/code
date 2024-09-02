@@ -1,0 +1,217 @@
+h1 {
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
+    font-size: 3.5rem;
+    line-height: 60px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    padding-bottom: 35px;
+}
+
+/*  NAVBAR  */
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 130px;   
+}
+
+.logo {
+    color: #000;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.links-container {
+    display: flex;
+    gap: 40px;
+}
+
+.navegation-links {
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+/* HEADER CONTENT */
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 130px;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+.header-main > img {
+    width: 75vh;
+}
+
+.header-text > button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 15px 50px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* ABOUT SECTION */
+
+.about {
+    background-color: #000;
+    padding: 50px 130px;
+}
+
+.about-container {
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.about-main-image {
+    width: 75vh;
+}
+
+.about-text > h2 {
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.about-text > h2 > span {
+    color: #ff9952;
+}
+
+.about-text > p {
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.arrow-image {
+    width: 8vh;
+    right: 0px;
+    position: absolute;
+    right: 130px;
+    transform: rotate(-70deg);
+}
+
+/* STEPS SECTION */
+
+.steps {
+    padding: 50px 130px;
+}
+
+.steps-container {
+    display: flex;
+}
+
+.steps-container ol {
+    width: auto;
+}
+
+.steps > h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.steps .card-image {
+    float: left;
+    margin-right: 10px;
+    width: 30vh;
+}
+
+.negociation-image {
+    transform: rotate(-10deg)
+}
+
+.fisrt-step-card {
+    width: 60vh;
+}
+
+.second-step-card {
+    margin-top: 140px;
+}
+
+.second-step-card > p {
+    width: 75vh;
+}
+
+.fourd-step-card {
+    display: flex;
+    margin-top: 155px;
+}
+
+.step-card  h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #494343;
+    margin-bottom: 0px;
+}
+
+.step-card  p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+/* PROJECTS SECTION */
+
+.projects {
+    padding: 50px 130px;
+    background-color: #0b6381;
+    color: white;
+    text-align: center;
+}
+
+.projects h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.carousel {
+    width: 100vh;
+    margin: auto;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 50px 130px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-icon {
+    width: 40px;
+    margin-left: 20px;
+}
+/*-----------------------------------------------*/
+.services-card {
+    display: flex;
+    justify-content: space-between;
+}
